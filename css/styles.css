@@ -104,10 +104,10 @@ img{
   margin-right: 50px;
   /* outline: 2px solid red */
 }
-
-.site-nav .item:last-child{
+ .site-nav .item:last-child{
   margin-right: 0;
-}
+ }
+
 
 .contact-item{
   margin-right: 50px;
@@ -144,14 +144,19 @@ img{
     
 }
 
-.hero-title{
+/* .hero-title{
   display: flex;
   width: 696px;
   height: 120px;
-  padding: auto;
+  padding: auto; */
   
+  .conteiner .hero{
+    margin: 200px 452px;
+    
+
+  }
   
-}
+
 
 .hero-inscription{
     color: var(--basic-color);
@@ -160,7 +165,7 @@ img{
     line-height: 1.364;
     letter-spacing: 0.06em;
     text-align: center;
-    text-transform: uppercase;
+    
     
 }
 
@@ -178,9 +183,11 @@ img{
    
 }
 
+
 .hero-order{
   display: flex;
   margin: 10px 32px;
+  
 }
 
 .hero-bttn:hover,
@@ -314,13 +321,8 @@ img{
 /* page2 */
 
 .portfolio{
-  /* width: 1170px;
-  height: 1360px;
-  margin-top: 85px;
-  margin-right: 215px;
-  margin-bottom: 100px;
-  margin-left: 215px; */
-  outline: 2px solid red
+  
+  /* outline: 2px solid red */
   
 }
 
@@ -331,15 +333,9 @@ img{
 
 .filtre{
     display: flex;
-    /* margin-block:0;
-    padding-inline-start:0;
-    width: 610px;
-    height: 55px;
     
-    /* margin-right: 495px; */
     margin-bottom: 50px;
-    /* margin-left: 495px; */
-    /* background-color: #2F303A; */
+    
    justify-content: center;
    margin-top: 94px;
 }
@@ -383,19 +379,24 @@ img{
 
 .progect{
     display: flex;
-    padding-inline-start:0;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin-bottom: 94px;
+    
 }
 
 .progect .item{
   margin-right: 30px;
-  outline: 2px solid red
+  margin-bottom: 30px;
+  /* outline: 2px solid red */
 
   
 }
-
-.progect .item:last-child{
+.progect .item:nth-child(3n){
   margin-right: 0;
+}
+
+.progect .item:nth-last-child(-n+3){
+  margin-bottom: 0;
 }
 
 .progect-file{
