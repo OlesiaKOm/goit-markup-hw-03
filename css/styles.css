@@ -145,7 +145,7 @@ img{
 
 .hero{
     background-color: #2F303A;
-    padding: 200px 452px;
+    padding: 200px ;
     
     
 }
@@ -388,6 +388,7 @@ img{
 .filtre-bttn:hover,
 .filtre-bttn:focus{
     background-color: var(--accent-color);
+    color: var(--basic-color);
     cursor: pointer;
 }
 
