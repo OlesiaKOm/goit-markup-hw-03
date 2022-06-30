@@ -60,6 +60,10 @@ img{
 /*header*/   
 .header .conteiner{
   display: flex;
+  
+}
+.header{
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .main-nav{
