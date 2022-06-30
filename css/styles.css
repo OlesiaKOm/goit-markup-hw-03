@@ -130,6 +130,7 @@ img{
     letter-spacing: 0.02em;
     color:var(--text-color);
     text-decoration: none;
+    padding: 32px 0px;
 }
 
 .current{
@@ -223,6 +224,7 @@ img{
 
 .site-deskription{
     display: flex;
+  margin-top: 0;
     
 }
 
@@ -302,6 +304,11 @@ img{
   margin-right: 30px;
   /* outline: 2px solid red */
 }
+
+.team .item:last-child{
+  margin-right: 0;
+}
+
 .team-meta{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -352,7 +359,7 @@ img{
     margin-bottom: 50px;
     
    justify-content: center;
-   margin-top: 94px;
+   
 }
 .filtre .item{
   margin-right: 8px;
@@ -395,7 +402,7 @@ img{
 .progect{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+   
     
 }
 
@@ -467,5 +474,6 @@ img{
     line-height: 1.714;
     text-decoration: none;
     margin-top: 9px;
+    padding: 32px 0px;
         
 }
