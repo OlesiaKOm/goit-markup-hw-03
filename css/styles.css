@@ -18,7 +18,7 @@
     
 }
 
-p, ul, h1, h2, h3, button{
+p, ul, h1, h2, h3{
   margin: 0;
   padding: 0;
 }
@@ -145,7 +145,7 @@ img{
 
 .hero{
     background-color: #2F303A;
-    padding: 200px ;
+    padding: 200px 0px ;
     
     
 }
@@ -161,7 +161,9 @@ img{
     line-height: 1.364;
     letter-spacing: 0.06em;
     text-align: center;
-    /* margin-top: 200px; */
+    width: 696px;
+    margin: 0px auto;
+    text-transform: uppercase;
    
     
     
@@ -453,8 +455,7 @@ img{
 }    
 .footer{
     background-color: var(--footer-background-color);
-    padding-top: 60px;
-    padding: 60px;
+    padding: 60px 0px;
 }
 
 .data{
